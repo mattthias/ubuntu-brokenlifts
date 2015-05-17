@@ -1,17 +1,15 @@
 {
-    "name": "brokenlifts.matthiasschmitz",
-    "description": "description of brokenlifts",
+    "name": "brokenlifts.matthias-sigxcpu",
+    "description": "Finde heraus. welche Aufzüge im Verkehrsverbund Berlin-Brandenburg funktionieren und welche momentan außer Betrieb sind. ",
     "architecture": "all",
-    "title": "brokenlifts",
+    "title": "BrokenLifts.org",
     "hooks": {
         "brokenlifts": {
             "apparmor": "brokenlifts.apparmor",
-            "desktop":  "brokenlifts.desktop"
+            "desktop": "brokenlifts.desktop"
         }
     },
     "version": "0.1",
     "maintainer": "Matthias Schmitz <matthias@sigxcpu.org>",
-    "framework" : "ubuntu-sdk-14.10"
+    "framework": "ubuntu-sdk-14.10"
 }
-
-

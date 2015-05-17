@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=brokenlifts
-Comment=webapp for brokenlifts
+Name=BrokenLifts
+Comment=webapp for BrokenLifts.org
 Type=Application
 Icon=brokenlifts.png
-Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.brokenlifts.com/* http://m.brokenlifts.com %u
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://brokenlifts.org/* http://brokenlifts.org %u
 Terminal=false
 X-Ubuntu-Touch=true
 
