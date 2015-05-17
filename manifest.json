@@ -1,0 +1,17 @@
+{
+    "name": "brokenlifts.matthiasschmitz",
+    "description": "description of brokenlifts",
+    "architecture": "all",
+    "title": "brokenlifts",
+    "hooks": {
+        "brokenlifts": {
+            "apparmor": "brokenlifts.apparmor",
+            "desktop":  "brokenlifts.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Matthias Schmitz <matthias@sigxcpu.org>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

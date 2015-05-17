@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=brokenlifts
+Comment=webapp for brokenlifts
+Type=Application
+Icon=brokenlifts.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.brokenlifts.com/* http://m.brokenlifts.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+
